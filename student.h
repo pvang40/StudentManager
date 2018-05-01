@@ -1,15 +1,18 @@
-#ifnedf _STUDENT_H_ 
-#define _STUDENT_H_ 
+#ifndef STUDENT_H 
+#define STUDENT_H 
+#include <string>
+#include <iostream> 
+
 
 class student 
 { 
 private:
-    string last; 
-    string first; 
+   std::string last; 
+   std::string first; 
 
 public:
-    void fullName(); 
-    string setName(string, string); 
+   std::string fullName(); 
+    void setName(std::string, std::string); 
         
 }; 
 
