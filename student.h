@@ -9,7 +9,7 @@ private:
 
 public:
     void fullName(); 
-    void setName(); 
+    string setName(string, string); 
         
 }; 
 
